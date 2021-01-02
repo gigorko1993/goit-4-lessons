@@ -1,0 +1,33 @@
+
+:root {
+    --bg-main-color:#FFFFFF;
+    --bg-secondary-color: #F5F4FA;
+    --bg-footer-color #2F303A;
+
+    --text-main-color:#757575;
+    --text-white-color:#FFFFFF;
+    --text-secondary-color:#212121;
+    --text-gray-color: rgb(255,255,255,0,6);
+
+    --accent-color:#2196F3;
+}
+/* bg main color  #FFFFFF */
+/* bg secondary color   #F5F4FA */
+/* bg footer color   #2F303A */
+
+/* text main color  #757575 */
+/* text secondary color  #212121 */
+/* white text color  #FFFFFF */
+/* transparent gray color rgb(255,255,255,0,6) */
+
+/* accent color  #2196F3 */
+
+body {
+    background-color: var(--bg-main-color);
+    color: var(--text-main-color);
+    
+}
+
+li {
+    text-decoration: none;
+}
