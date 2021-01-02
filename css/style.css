@@ -25,9 +25,18 @@
 body {
     background-color: var(--bg-main-color);
     color: var(--text-main-color);
-    
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
-li {
+.list {
+    list-style: none;
+}
+
+a {
     text-decoration: none;
+}
+
+address {
+    font-style: normal;
 }
